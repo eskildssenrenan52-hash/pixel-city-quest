@@ -57,7 +57,7 @@ export function HubCity({ onEnter }: { onEnter: (s: Exclude<Screen, "menu">) => 
   }, []);
 
   const near = useMemo(
-    () => BUILDINGS.find((b) => Math.abs(b.x - x) < b.w * 0.42),
+    () => BUILDINGS.find((b) => Math.abs(b.x - x) < b.w * 0.62),
     [x],
   );
 
@@ -308,7 +308,7 @@ export function HubCity({ onEnter }: { onEnter: (s: Exclude<Screen, "menu">) => 
           left: 0,
           right: 0,
           bottom: 0,
-          padding: "10px 12px",
+          padding: "10px 12px 10px 44px",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "flex-end",
