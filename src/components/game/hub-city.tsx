@@ -139,10 +139,10 @@ export function HubCity({ onEnter }: { onEnter: (s: Exclude<Screen, "menu">) => 
         style={{
           position: "absolute",
           left: 0,
-          top: 0,
+          bottom: -60,
           width: WORLD_W,
           height: WORLD_H,
-          transform: `translate3d(${-camX}px, ${-(WORLD_H - (typeof window !== "undefined" ? Math.min(window.innerHeight, 1088) : 800))}px, 0)`,
+          transform: `translate3d(${-camX}px, 0, 0)`,
           transition: "transform 60ms linear",
         }}
       >
