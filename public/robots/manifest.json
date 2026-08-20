@@ -1,0 +1,493 @@
+{
+ "frame": 128,
+ "frames": 16,
+ "robots": [
+  {
+   "id": "aurorion",
+   "name": "AURORION"
+  },
+  {
+   "id": "ferrovax",
+   "name": "FERROVAX"
+  },
+  {
+   "id": "cryolance",
+   "name": "CRYOLANCE"
+  },
+  {
+   "id": "voltronin",
+   "name": "VOLT RONIN"
+  },
+  {
+   "id": "pyrokaiser",
+   "name": "PYROKAISER"
+  },
+  {
+   "id": "terrabyte",
+   "name": "TERRABYTE"
+  },
+  {
+   "id": "zephyrblade",
+   "name": "ZEPHYRBLADE"
+  },
+  {
+   "id": "nullshade",
+   "name": "NULLSHADE"
+  },
+  {
+   "id": "acidra",
+   "name": "ACIDRA"
+  },
+  {
+   "id": "gravitus",
+   "name": "GRAVITUS"
+  },
+  {
+   "id": "chronowake",
+   "name": "CHRONOWAKE"
+  },
+  {
+   "id": "bioreaper",
+   "name": "BIOREAPER"
+  },
+  {
+   "id": "stormfang",
+   "name": "STORMFANG"
+  },
+  {
+   "id": "quartzine",
+   "name": "QUARTZINE"
+  },
+  {
+   "id": "hydroknight",
+   "name": "HYDROKNIGHT"
+  },
+  {
+   "id": "emberfox",
+   "name": "EMBERFOX"
+  },
+  {
+   "id": "ironmonk",
+   "name": "IRONMONK"
+  },
+  {
+   "id": "nebulon",
+   "name": "NEBULON"
+  },
+  {
+   "id": "titanox",
+   "name": "TITANOX"
+  },
+  {
+   "id": "magnavore",
+   "name": "MAGNAVORE"
+  },
+  {
+   "id": "solarixprime",
+   "name": "SOLARIX PRIME"
+  },
+  {
+   "id": "lunargeist",
+   "name": "LUNAR GEIST"
+  },
+  {
+   "id": "dunecrawler",
+   "name": "DUNE CRAWLER"
+  },
+  {
+   "id": "junglemaw",
+   "name": "JUNGLE MAW"
+  },
+  {
+   "id": "abyssalord",
+   "name": "ABYSSA LORD"
+  },
+  {
+   "id": "toxinvore",
+   "name": "TOXINVORE"
+  },
+  {
+   "id": "ruinwarden",
+   "name": "RUIN WARDEN"
+  },
+  {
+   "id": "forgeheart",
+   "name": "FORGE HEART"
+  },
+  {
+   "id": "snowreaver",
+   "name": "SNOW REAVER"
+  },
+  {
+   "id": "ashenrevenant",
+   "name": "ASHEN REVENANT"
+  },
+  {
+   "id": "plasmawraith",
+   "name": "PLASMA WRAITH"
+  },
+  {
+   "id": "shadowfang",
+   "name": "SHADOWFANG"
+  },
+  {
+   "id": "mirrorclad",
+   "name": "MIRRORCLAD"
+  },
+  {
+   "id": "bonemarshal",
+   "name": "BONE MARSHAL"
+  },
+  {
+   "id": "cloudpiercer",
+   "name": "CLOUD PIERCER"
+  },
+  {
+   "id": "vulcanargo",
+   "name": "VULCAN ARGO"
+  },
+  {
+   "id": "mireclad",
+   "name": "MIRECLAD"
+  },
+  {
+   "id": "aridfang",
+   "name": "ARID FANG"
+  },
+  {
+   "id": "tundrakeeper",
+   "name": "TUNDRA KEEPER"
+  },
+  {
+   "id": "reefsovereign",
+   "name": "REEF SOVEREIGN"
+  },
+  {
+   "id": "obsidianfist",
+   "name": "OBSIDIAN FIST"
+  },
+  {
+   "id": "amberlock",
+   "name": "AMBERLOCK"
+  },
+  {
+   "id": "neondrifter",
+   "name": "NEON DRIFTER"
+  },
+  {
+   "id": "rustpriest",
+   "name": "RUST PRIEST"
+  },
+  {
+   "id": "graphenex",
+   "name": "GRAPHENEX"
+  },
+  {
+   "id": "quantumecho",
+   "name": "QUANTUM ECHO"
+  },
+  {
+   "id": "nebulaseer",
+   "name": "NEBULA SEER"
+  },
+  {
+   "id": "eclipsar",
+   "name": "ECLIPSAR"
+  },
+  {
+   "id": "meteorpunch",
+   "name": "METEOR PUNCH"
+  },
+  {
+   "id": "ringwarden",
+   "name": "RING WARDEN"
+  },
+  {
+   "id": "pulsarcore",
+   "name": "PULSAR CORE"
+  },
+  {
+   "id": "voidsingularity",
+   "name": "VOID SINGULARITY"
+  },
+  {
+   "id": "seraphcircuit",
+   "name": "SERAPH CIRCUIT"
+  },
+  {
+   "id": "cinderhound",
+   "name": "CINDERHOUND"
+  },
+  {
+   "id": "glacierjaw",
+   "name": "GLACIER JAW"
+  },
+  {
+   "id": "stormlance",
+   "name": "STORMLANCE"
+  },
+  {
+   "id": "terraforge",
+   "name": "TERRAFORGE"
+  },
+  {
+   "id": "windshear",
+   "name": "WINDSHEAR"
+  },
+  {
+   "id": "voidcaller",
+   "name": "VOIDCALLER"
+  },
+  {
+   "id": "acidbloom",
+   "name": "ACIDBLOOM"
+  },
+  {
+   "id": "gravitide",
+   "name": "GRAVITIDE"
+  },
+  {
+   "id": "chronofracture",
+   "name": "CHRONOFRACTURE"
+  },
+  {
+   "id": "biolattice",
+   "name": "BIOLATTICE"
+  },
+  {
+   "id": "crystallux",
+   "name": "CRYSTALLUX"
+  },
+  {
+   "id": "aquabastion",
+   "name": "AQUA BASTION"
+  },
+  {
+   "id": "emberwing",
+   "name": "EMBERWING"
+  },
+  {
+   "id": "ironsentinel",
+   "name": "IRON SENTINEL"
+  },
+  {
+   "id": "thunderoni",
+   "name": "THUNDER ONI"
+  },
+  {
+   "id": "titanbulwark",
+   "name": "TITAN BULWARK"
+  },
+  {
+   "id": "magnashrike",
+   "name": "MAGNASHRIKE"
+  },
+  {
+   "id": "jadearbiter",
+   "name": "JADE ARBITER"
+  },
+  {
+   "id": "cosmoveil",
+   "name": "COSMOVEIL"
+  },
+  {
+   "id": "sandwyrm",
+   "name": "SANDWYRM"
+  },
+  {
+   "id": "pyreconclave",
+   "name": "PYRE CONCLAVE"
+  },
+  {
+   "id": "frostmonarch",
+   "name": "FROST MONARCH"
+  },
+  {
+   "id": "voltcarnyx",
+   "name": "VOLTCARNYX"
+  },
+  {
+   "id": "quarrybreaker",
+   "name": "QUARRY BREAKER"
+  },
+  {
+   "id": "zephyrhalo",
+   "name": "ZEPHYR HALO"
+  },
+  {
+   "id": "nullpriest",
+   "name": "NULL PRIEST"
+  },
+  {
+   "id": "venomcarapace",
+   "name": "VENOM CARAPACE"
+  },
+  {
+   "id": "grimsprocket",
+   "name": "GRIM SPROCKET"
+  },
+  {
+   "id": "blastfurnace",
+   "name": "BLAST FURNACE"
+  },
+  {
+   "id": "hailstriker",
+   "name": "HAILSTRIKER"
+  },
+  {
+   "id": "emberlash",
+   "name": "EMBERLASH"
+  },
+  {
+   "id": "lumenblade",
+   "name": "LUMEN BLADE"
+  },
+  {
+   "id": "gloomtide",
+   "name": "GLOOMTIDE"
+  },
+  {
+   "id": "sporeherald",
+   "name": "SPORE HERALD"
+  },
+  {
+   "id": "prismvector",
+   "name": "PRISM VECTOR"
+  },
+  {
+   "id": "maelstromfist",
+   "name": "MAELSTROM FIST"
+  },
+  {
+   "id": "scrapbaron",
+   "name": "SCRAP BARON"
+  },
+  {
+   "id": "stelladrake",
+   "name": "STELLADRAKE"
+  },
+  {
+   "id": "terminuscore",
+   "name": "TERMINUS CORE"
+  },
+  {
+   "id": "heliondriver",
+   "name": "HELION DRIVER"
+  },
+  {
+   "id": "noxfeather",
+   "name": "NOXFEATHER"
+  },
+  {
+   "id": "basaltguard",
+   "name": "BASALT GUARD"
+  },
+  {
+   "id": "hexweaver",
+   "name": "HEXWEAVER"
+  },
+  {
+   "id": "solstitia",
+   "name": "SOLSTITIA"
+  },
+  {
+   "id": "cometfang",
+   "name": "COMETFANG"
+  },
+  {
+   "id": "orbitalmarshal",
+   "name": "ORBITAL MARSHAL"
+  },
+  {
+   "id": "neutronmaul",
+   "name": "NEUTRON MAUL"
+  },
+  {
+   "id": "eventhorizon",
+   "name": "EVENT HORIZON"
+  },
+  {
+   "id": "mossknight",
+   "name": "MOSS KNIGHT"
+  },
+  {
+   "id": "quicksilverr",
+   "name": "QUICKSILVER"
+  },
+  {
+   "id": "boneorchestra",
+   "name": "BONE ORCHESTRA"
+  },
+  {
+   "id": "stratoveil",
+   "name": "STRATOVEIL"
+  },
+  {
+   "id": "lavabastion",
+   "name": "LAVA BASTION"
+  },
+  {
+   "id": "bogtyrant",
+   "name": "BOG TYRANT"
+  },
+  {
+   "id": "mirageblade",
+   "name": "MIRAGE BLADE"
+  },
+  {
+   "id": "permafrostmk",
+   "name": "PERMAFROST MK"
+  },
+  {
+   "id": "coralshiv",
+   "name": "CORAL SHIV"
+  },
+  {
+   "id": "resinjudge",
+   "name": "RESIN JUDGE"
+  },
+  {
+   "id": "gridrunner",
+   "name": "GRIDRUNNER"
+  },
+  {
+   "id": "seraphimvoid",
+   "name": "SERAPHIM VOID"
+  },
+  {
+   "id": "tempestcrown",
+   "name": "TEMPEST CROWN"
+  },
+  {
+   "id": "ironmonarch",
+   "name": "IRON MONARCH"
+  },
+  {
+   "id": "vireoblade",
+   "name": "VIREO BLADE"
+  },
+  {
+   "id": "aetherloom",
+   "name": "AETHER LOOM"
+  },
+  {
+   "id": "cindercrown",
+   "name": "CINDER CROWN"
+  },
+  {
+   "id": "magnetarfist",
+   "name": "MAGNETAR FIST"
+  },
+  {
+   "id": "ravenousbloom",
+   "name": "RAVENOUS BLOOM"
+  }
+ ],
+ "arenas": [
+  "dojo",
+  "volcano",
+  "orbital",
+  "frozen",
+  "sky"
+ ]
+}

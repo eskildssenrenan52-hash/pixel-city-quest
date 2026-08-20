@@ -142,3 +142,160 @@
     color: var(--color-foreground);
   }
 }
+
+/* ------------------------------------------------------- CAMPEOES MECHA */
+@font-face {
+  font-family: "PressStart";
+  src: url("/fonts/press-start-2p.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Silkscreen";
+  src: url("/fonts/silkscreen.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --mk-bg: #070b14;
+  --mk-bg2: #0e1524;
+  --mk-panel: #14243a;
+  --mk-accent: #35e2f0;
+  --mk-accent2: #ffb43a;
+  --mk-hp: #e2453a;
+  --mk-ok: #57d76a;
+  --mk-text: #e8f4ff;
+  --mk-muted: #7d94ad;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: var(--mk-bg);
+  color: var(--mk-text);
+  font-family: "Silkscreen", monospace;
+  margin: 0;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+img {
+  image-rendering: pixelated;
+}
+
+.mk-title {
+  font-family: "PressStart", monospace;
+  letter-spacing: 0.04em;
+}
+
+.mk-pixel {
+  image-rendering: pixelated;
+}
+
+/* Painel: moldura pixel art via border-image */
+.mk-panel {
+  border-image: url("/ui/panel_large.png") 30 fill / 30px / 0 stretch;
+  border-style: solid;
+  border-width: 30px;
+  background-color: rgba(10, 20, 34, 0.92);
+  background-clip: padding-box;
+}
+.mk-panel-sm {
+  border-image: url("/ui/panel_strip.png") 24 / 18px / 0 stretch;
+  border-style: solid;
+  border-width: 18px;
+  background-color: rgba(10, 20, 34, 0.86);
+  background-clip: padding-box;
+}
+.mk-card {
+  border-image: url("/ui/panel_card.png") 26 / 16px / 0 stretch;
+  border-style: solid;
+  border-width: 16px;
+  background-color: rgba(12, 24, 40, 0.9);
+  background-clip: padding-box;
+}
+
+.mk-btn {
+  border-image: url("/ui/btn_wide.png") 16 fill / 16px / 0 stretch;
+  border-style: solid;
+  border-width: 16px;
+  font-family: "PressStart", monospace;
+  color: var(--mk-text);
+  text-shadow: 2px 2px 0 #000;
+  transition: transform 60ms steps(2);
+  cursor: pointer;
+}
+.mk-btn:active:not(:disabled) {
+  border-image-source: url("/ui/btn_wide_pressed.png");
+  transform: translateY(2px);
+}
+.mk-btn:disabled {
+  border-image-source: url("/ui/btn_wide_disabled.png");
+  color: #62788f;
+  cursor: not-allowed;
+}
+.mk-btn-sq {
+  border-image: url("/ui/btn_sq.png") 16 fill / 14px / 0 stretch;
+  border-style: solid;
+  border-width: 14px;
+}
+.mk-btn-sq:active {
+  border-image-source: url("/ui/btn_sq_pressed.png");
+}
+
+.mk-plain {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.mk-plain:disabled {
+  cursor: not-allowed;
+}
+
+.mk-scroll-x {
+  scrollbar-width: thin;
+  scrollbar-color: var(--mk-accent) transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.mk-scroll {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--mk-accent) transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+@keyframes mk-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-3px); }
+}
+.mk-shake {
+  animation: mk-shake 220ms steps(3) 1;
+}
+
+@keyframes mk-float-up {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-42px); opacity: 0; }
+}
+.mk-float {
+  animation: mk-float-up 900ms steps(9) forwards;
+}
+
+@keyframes mk-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0.25; }
+}
+.mk-blink {
+  animation: mk-blink 800ms steps(1, end) infinite;
+}
